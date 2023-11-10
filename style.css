@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&family=Lato&family=Lobster&family=Nunito+Sans:ital,wght@1,1000&family=Roboto:wght@300;400&family=Sigmar&family=Tilt+Prism&display=swap');
+
+body {
+    background-color: white;
+    margin-right: 250px;
+    margin-left: 250px;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+article {
+    display: inline-block;
+    background-color: rgb(234, 233, 230);
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: xx-large;
+    color: rgb(74, 75, 74);
+    text-align: center;
+}
+
+h2 {
+    color: rgb(74, 75, 74);
+    text-align: center;
+}
+
+section {
+    display: inline-block;
+    text-align: center;
+}
+
+img {
+    background-size: cover;
+    border: 12px solid rgba(165, 167, 156, 0.89);
+    border-radius: 15px;
+}
+
+p {
+    text-align: start;
+    text-indent: 20px;
+}
+
+ul,
+li {
+
+    text-align: start;
+}
+
+section.photo {
+    margin: 5px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.photo img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px;
+    height: 150px;
+    border: 3px solid rgba(165, 167, 156, 0.89);
+    margin: auto;
+}
+
+h4 {
+    text-align: start;
+}
